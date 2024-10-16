@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-image: url("Images/Hell.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: center; /* Centering vertically */
+    justify-content: center; /* Centering horizontally */
+    flex-direction: column; /* Allow stacking of elements */
+    text-align: center; /* Centering text */
+}
+
+button {
+    height: auto;
+    width: auto;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.5rem 1rem; /* Adding horizontal padding for better appearance */
+    cursor: pointer;
+    background-color: red; /* Keep your specified color */
+    color: black; /* Keep your specified text color */
+    margin-top: 2rem;
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners for the button */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transition for hover effects */
+}
+
+button:hover {
+    background-color: darkred; /* Darken the button on hover */
+    transform: scale(1.05); /* Slightly enlarge the button */
+}
+
+h1, p {
+    color: white; /* Change text color for contrast against the background */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Text shadow for better readability */
+}
+
+footer {
+    position: absolute; /* Positioning at the bottom */
+    bottom: 10px; /* Space from the bottom */
+    font-size: 14px; /* Footer text size */
+    color: white; /* Footer text color */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); /* Text shadow for footer */
+}

@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-image: url("Images/Hell.jpg");
+    background-size: cover;
+}
+
+.box {
+    height: auto;
+    width: 70%;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black */
+    color: red; /* Text color */
+    margin: auto;
+    margin-top: 2rem;
+    padding: 2rem; /* Increased padding for better spacing */
+    text-align: center;
+    border-radius: 10px; /* Rounded corners for the box */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); /* Shadow for depth */
+}
+
+h1 {
+    font-size: 3rem; /* Large heading */
+    margin-bottom: 1rem; /* Space below the heading */
+}
+
+p {
+    font-size: 1.3rem; /* Increased font size for readability */
+    font-weight: bold; /* Bold text */
+    margin-bottom: 1rem; /* Space below paragraphs */
+}
+
+label {
+    display: block; /* Make labels block elements */
+    font-size: 1.1rem; /* Font size for labels */
+    color: red; /* Color for labels */
+    margin-top: 1rem; /* Space above labels */
+    margin-bottom: 0.5rem; /* Space below labels */
+}
+
+input, textarea, select {
+    height: auto; /* Auto height */
+    width: 100%; /* Full width */
+    padding: 1rem; /* Padding for comfort */
+    font-size: 1rem; /* Font size */
+    font-family: 'Times New Roman', Times, serif; /* Font family */
+    border: 2px solid red; /* Red border */
+    border-radius: 5px; /* Rounded corners */
+    background-color: rgba(0, 0, 0, 0.8); /* Dark background for inputs */
+    color: white; /* White text color for inputs */
+    margin-bottom: 1rem; /* Space below inputs */
+}
+
+input::placeholder, textarea::placeholder {
+    color: rgba(255, 255, 255, 0.7); /* Light color for placeholders */
+}
+
+button {
+    font-size: 1rem; /* Font size */
+    font-weight: bold; /* Bold text */
+    padding: 0.5rem 1rem; /* Padding for the button */
+    cursor: pointer; /* Pointer cursor on hover */
+    background-color: red; /* Button background color */
+    color: black; /* Button text color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners for the button */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Transition effects */
+}
+
+button:hover {
+    background-color: darkred; /* Darken on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}

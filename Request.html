@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="hi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aparichit</title>
+    <link rel="icon" href="Images/Icon.jpg">
+    <link rel="stylesheet" href="Request.css">
+</head>
+
+<body>
+    <div class="box">
+        <h1>गलती की सजा - मौत!</h1>
+
+        <br>
+
+        <p>गरुड़ पुराण के हिसाब से सबको सजा मिलेगी।</p>
+
+        <br>
+
+        <hr>
+
+        <br>
+
+        <p>अपनी समस्या लिखो। अपरिचित इन्साफ करेगा।</p>
+
+        <br>
+
+        <label for="name">नाम (Name):</label>
+        <input type="text" id="name" placeholder="नाम यहाँ लिखें" required>
+        
+        <br><br>
+
+        <label for="address">पता (Address):</label>
+        <input type="text" id="address" placeholder="पता यहाँ लिखें" required>
+        
+        <br><br>
+
+        <label for="sin">पाप (Sin):</label>
+        <select id="sin" required>
+            <option value="" disabled selected>--- एक पाप चुनें ---</option>
+            <option value="झूठ बोलना">झूठ बोलना (Lying)</option>
+            <option value="चोरी करना">चोरी करना (Stealing)</option>
+            <option value="धोखा देना">धोखा देना (Deceiving)</option>
+            <option value="घृणा करना">घृणा करना (Hating)</option>
+            <option value="ईर्ष्या करना">ईर्ष्या करना (Jealousy)</option>
+            <option value="क्रोध करना">क्रोध करना (Anger)</option>
+            <option value="स्वार्थी होना">स्वार्थी होना (Being Selfish)</option>
+            <option value="बदले की भावना रखना">बदले की भावना रखना (Holding Grudges)</option>
+            <option value="कुविचार रखना">कुविचार रखना (Holding Negative Thoughts)</option>
+            <option value="gossip करना">gossip करना (Gossiping)</option>
+            <option value="शांति भंग करना">शांति भंग करना (Disturbing Peace)</option>
+            <option value="अवज्ञा करना">अवज्ञा करना (Disobedience)</option>
+            <option value="असत्य बोलना">असत्य बोलना (Speaking Untruth)</option>
+            <option value="अधर्म करना">अधर्म करना (Committing Injustice)</option>
+            <option value="नशा करना">नशा करना (Substance Abuse)</option>
+            <option value="धर्म का अपमान करना">धर्म का अपमान करना (Disrespecting Religion)</option>
+            <option value="परनिंदा करना">परनिंदा करना (Slandering Others)</option>
+            <option value="मिथ्या गर्व करना">मिथ्या गर्व करना (False Pride)</option>
+            <option value="समाज से दूर रहना">समाज से दूर रहना (Isolating from Society)</option>
+            <option value="शोषण करना">शोषण करना (Exploitation)</option>
+        </select>
+
+        <br><br>
+
+        <label for="problem">समस्या (Problem):</label>
+        <textarea id="problem" placeholder="अपनी समस्या लिखें" required></textarea>
+
+        <br><br>
+
+        <button id="submit">SUBMIT</button>
+    </div>
+
+    <audio src="Audios/Theme Song.mp3" autoplay></audio>
+    
+    <script src="script.js"></script>
+</body>
+
+</html>

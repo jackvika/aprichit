@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden; /* Prevent scrolling when video plays */
+    color: white;
+    font-family: 'Arial', sans-serif;
+}
+
+video {
+    position: absolute; /* Position video behind other elements */
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover; /* Cover the entire background */
+    z-index: -1; /* Ensure the video is behind the text */
+}
+
+.confirmation-box {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    position: relative; /* Keep it positioned above the video */
+    z-index: 1; /* Ensure the box is above the video */
+}
+
+h1 {
+    margin-bottom: 1rem;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    border: none;
+    background-color: red;
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: darkred;
+}
