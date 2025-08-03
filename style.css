@@ -7,7 +7,7 @@
 body {
     height: 100vh;
     width: 100vw;
-    background-image: url("Images/Hell.jpg");
+    background-image: url("hell.webp");
     background-size: cover;
     display: flex;
     align-items: center; /* Centering vertically */
@@ -48,3 +48,4 @@ footer {
     color: white; /* Footer text color */
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); /* Text shadow for footer */
 }
+
