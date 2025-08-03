@@ -6,21 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>अपरिचित - सजा</title>
     <link rel="icon" href="Images/Icon.jpg">
-    <link rel="stylesheet" href="Confirmation.css">
+    <link rel="stylesheet" href="style2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Hindi&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <video src="Videos/Video 2.mp4" autoplay muted loop></video> <!-- Video playing in the background -->
+    <video id="punishment-video" src="apprichit.mp4" autoplay muted loop></video>
+    
     <div class="confirmation-box">
         <h1>सजा की जानकारी</h1>
-
         <p id="punishment-message"></p>
-
-        <button onclick="goBack()">वापस जाएं</button>
+        <button onclick="window.location.href='Request.html'">वापस जाएं</button>
     </div>
-     <audio src="Anniyan BGM.mp3" autoplay></audio>
+    
+    <audio id="bg-audio" src="Anniyan BGM.mp3" loop></audio>
+    
     <script src="script2.js"></script>
 </body>
 
 </html>
+
 
