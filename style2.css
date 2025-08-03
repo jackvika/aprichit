@@ -253,3 +253,51 @@ button:active {
         opacity: 0;
     }
 }
+/* Add to style2.css */
+.punishment-container {
+    background: rgba(255,255,255,0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.sin-display {
+    background: #ffe6e6;
+    padding: 10px;
+    border-left: 4px solid red;
+    margin: 15px 0;
+}
+
+.punishment-display {
+    background: #fff9e6;
+    padding: 10px;
+    border-left: 4px solid #ffcc00;
+    margin: 15px 0;
+}
+
+.legal-display {
+    background: #e6f3ff;
+    padding: 10px;
+    border-left: 4px solid #0066cc;
+    margin: 15px 0;
+}
+
+.disclaimer-box {
+    background: #f8f8f8;
+    border: 1px dashed #ccc;
+    padding: 15px;
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 20px;
+    color: #666;
+}
+
+.divider {
+    height: 2px;
+    background: linear-gradient(to right, transparent, #333, transparent);
+    margin: 10px 0;
+}
