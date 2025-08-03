@@ -7,7 +7,7 @@
 body {
     height: 100vh;
     width: 100vw;
-    background-image: url("Images/Hell.jpg");
+    background-image: url("hell.jpg");
     background-size: cover;
     background-attachment: fixed;
     font-family: 'Arial', sans-serif;
@@ -202,3 +202,4 @@ video {
         opacity: 0.5;
     }
 }
+
